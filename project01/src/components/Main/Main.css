@@ -1,0 +1,126 @@
+.datatable {
+    width: 100%;
+    margin: 0 auto;
+    clear: both;
+    border-collapse: separate;
+    border-spacing: 0;
+    border: 1px solid #d9d9d9;
+    color:#6b6c72;
+  }
+  
+  .datatablethead{
+    height:60px;
+  }
+  .thformname{
+    background-color: #47596d;
+    /* // border-right:1px solid #fff */
+  }
+  .thcategory{
+    background-color: #758391;
+  }
+  .theadbtn{
+    color:#ffffff;
+    border:none;
+    background:none;
+    font-size:16px;
+    font-weight:700;
+      
+    
+  }
+  .theadbtn:hover {
+    cursor: pointer;
+  }
+  
+  .tablerow:nth-child(even) {
+      background-color: #f5f5f7;  
+    }
+    
+  .tabledata{
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 10px 20px;
+    width:50%;
+  }
+  
+  .search{
+    margin:10px;
+    display:block;
+    float:right;
+    color:#6b6c72;
+  }
+  
+  .inputlabel{
+    border: 1px solid #d6d6d6;
+    padding: 8px;
+    width: 150px;
+    vertical-align: middle;
+  }
+  
+  .datatablefooter{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center
+  }
+  
+  .datatableshowing{
+    color:#6b6c72;
+  }
+  .pagination {
+    display: flex;
+    column-gap: 5px;
+  }
+  .pagination > li {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    width: 40px;
+    height: 40px;
+  }
+  .pagination a {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    padding: 10px;
+      border: 0;
+      color: #505050;
+      
+  }
+  .pagination a:hover {
+    color: #fff!important;
+    
+    display: flex;
+    align-items: center;
+    justify-items: center;
+      color: #505050;
+      background: rgb(148, 251, 133);
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+  }
+  
+  
+  .paginationLink {
+    font-weight: bold;
+    
+  }
+  .paginationLink:hover{
+    background-color: red;
+  }
+  
+  .paginationActive a {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+      color: #fff;
+      background: rgb(33, 219, 5);
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+  }
+  
+  .paginationDisabled a{
+      color: #cacaca;
+  }
