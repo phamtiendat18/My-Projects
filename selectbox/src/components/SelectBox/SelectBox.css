@@ -1,0 +1,10 @@
+.search-input::after {
+    content: '\f002';
+    position: absolute;
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    right: 10px;
+    top: 50%;
+    translate: 0 -50%;
+    cursor: pointer;
+}

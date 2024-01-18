@@ -4,6 +4,7 @@ import Options from "../Options/Options";
 import { useNavigate } from "react-router-dom";
 import Loader from "../Loader/Loader";
 import ReactPaginate from "react-paginate";
+import SelectBox from "../SelectBox/SelectBox";
 
 const Main = () => {
   const limit = 10;
@@ -54,7 +55,10 @@ const Main = () => {
         <Loader />
       ) : (
         <div className=" p-[30px]">
-          <div className="flex justify-end">
+          <div className="flex justify-between items-center">
+            <div>
+              <SelectBox />
+            </div>
             <div className="relative">
               <h2 className="font-medium text-xl">Tìm kiếm công việc</h2>
               <form
